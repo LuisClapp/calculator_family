@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculadora de despesa</title>
+</head>
+<body>
+    <div id="container">
+        <img src="../png/chowchow.jpg" alt="Imagem aleatória">
+      
+        <h1 class="h1">Insira os dados corretamente para que possa ser feito o cálculo.</h1>
+        <label for="incomes" class="label">Receita: </label>
+        <input type="number" placeholder="Digite a receita" id="incomes" name="incomes" title="Números e ponto '.'" pattern="[0-9]" required autofocus>
+        <br>
+        <br>
+        <label for="expensescreditcard" class="label1">Despesas com cartão de crédito: </label>
+        <input type="number" placeholder="Digite a despesa" class="expensescreditcard" id="expensescreditcard" name="expensescreditcard" title="Números e ponto '.'" pattern="[0-9]" required>
+        <br>
+        <br>
+        <label for="expensesdebitcard" class="label2">Despesas no débito, PIX ou em espécie:</label>
+        <input type="number" placeholder="Digite a despesa" class="expensesdebitcard" id="expensesdebitcard" name="expensesdebitcard" title="Números e ponto '.'" pattern="[0-9]" required>
+        <br>
+        <button type="submit" class="calculate" onClick="calculateBalance()">Calcular</button>
+    </div>
+    <br>
+    <section>
+        <span id="getIncome"></span>
+    </section>
+    <br>
+    <section>
+        <span id="getExpenseCreditCard"></span>
+    </section>
+    <br>
+    <section>
+        <span id="getExpenseDebitCard"></span>
+    </section>
+    <br>
+    <section>
+        <span id="balance"></span>
+    </section>
+      <script src="./exercicio2.js"></script>
+    </body>
+</body>
+</html>

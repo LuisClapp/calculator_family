@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    text-align: center;
+    background-color: olive;
+}
+
+img {
+    padding-top: 30px;
+}
+
+.h1 {
+    margin-top: 2.5%;
+    margin-bottom: 35px;
+}
+
+#incomes, #expensescreditcard, #expensesdebitcard {
+    background-color: aliceblue;
+    border-radius: 5px;
+    border-color: blue;
+}
+
+.calculate {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    width: 20%;
+    text-align: center;
+    justify-content: center;
+    background: radial-gradient(blue, red);
+    color: aqua;
+    border-radius: 5px;
+}
+
+#balance, #getIncome, #getExpense, #getExpenseCreditCard, #getExpenseDebitCard {
+    border-radius: 2px;
+    color: aqua;
+}
+
+button:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+  }
