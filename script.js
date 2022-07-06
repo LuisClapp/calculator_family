@@ -24,6 +24,9 @@ function calculateBalance () {
    
    let result = (`${balanceText}` + " " + `${total.toFixed(2)}`)
 
-   return [document.getElementById("balance").innerHTML = (`Seu saldo é ${result} R$`), document.getElementById("getIncome").innerHTML= (`Receita de: ${income} R$`), document.getElementById("getExpenseCreditCard").innerHTML= (`Despesas com cartão de crédito de: ${expensescreditcard} R$`), document.getElementById("getExpenseDebitCard").innerHTML= (`Despesas com cartão de débito, PIX ou em espécie de: ${expensesdebitcard} R$`) ]
+   return [document.getElementById("balance").innerHTML = (`Seu saldo é ${result} R$`), 
+           document.getElementById("getIncome").innerHTML= (`Receita de: ${income} R$`), 
+           document.getElementById("getExpenseCreditCard").innerHTML= (`Despesas com cartão de crédito de: ${expensescreditcard} R$`), 
+           document.getElementById("getExpenseDebitCard").innerHTML= (`Despesas com cartão de débito, PIX ou em espécie de: ${expensesdebitcard} R$`) ]
 }
 
